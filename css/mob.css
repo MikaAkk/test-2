@@ -1,0 +1,152 @@
+@media screen and (max-width: 320px) {
+    section {
+        margin-left: 20px;
+    }
+
+    .img_head {
+        height: 150px;
+        margin-top: 100px;
+    }
+
+    .img_footer {
+        margin-left: 40%;
+    }
+
+    .footer_navigation {
+        display: inline-block;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+
+  
+    menu {
+        margin-top: 150px;
+        margin-left: -100px;
+    }
+
+    card {
+        width: 280px;
+        border-radius: 10px;
+    }
+
+    card_mini {
+        width: 280px;
+        height: 350px;
+    }
+
+    page {
+        display: block;
+    }
+
+    right_block {
+
+        display: block;
+        width: 280px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        margin-top: 5350px;
+        margin-left: -325px;
+    }
+
+
+    podpiska {
+        display: inline-block;
+        width: 320px;
+        height: 271px;
+        background: #FFFFFF;
+
+    }
+
+
+
+
+
+    .card__item--1,
+    .card__item--7 {
+        grid-area: card__item--1;
+
+
+    }
+
+    .card__item--7 {
+        margin-top: -90px;
+    }
+
+    .card__item--2,
+    .card__item--8 {
+        grid-area: card__item--2;
+        margin-top: -20px;
+    }
+
+    .card__item--3,
+    .card__item--9 {
+        grid-area: card__item--3;
+        margin-top: -20px;
+    }
+
+    .card__item--4,
+    .card__item--10 {
+        grid-area: card__item--4;
+        margin-top: -20px;
+    }
+
+    .card__item--5,
+    .card__item--11 {
+        grid-area: card__item--5;
+        margin-top: -20px;
+        width: 280px;
+        height: 350px;
+        margin-left: -30px;
+    }
+
+    .card__item--6,
+    .card__item--12 {
+        grid-area: card__item--6;
+        margin-top: -20px;
+        width: 280px;
+        height: 350px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+
+    .paginator {
+        display: none;
+    }
+
+    .btn-center {
+        width: 260px;
+        height: 50px;
+        padding: 13px 68px 13px 68px;
+        margin-top: -1700px;
+        margin-left: 0px;
+        display: inline-block;
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+    button {
+        width: Fixed (260px)px;
+        height: Fixed (50px)px;
+        padding: 13px 68px 13px 68px;
+        gap: 10px;
+        border-radius: 20px;
+        background: #5D71DD;
+        margin-left: 20px;
+  
+    }
+
+
+
+
+    .item--7 {
+        grid-area: item--7;
+    }
+}

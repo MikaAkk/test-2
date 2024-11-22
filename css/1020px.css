@@ -1,0 +1,87 @@
+@media screen and (min-width:321px) and (max-width: 1020px) {
+
+
+    .card__item--7,
+    .card__item--8,
+    .card__item--9,
+    .card__item--11,
+    .card__item--10 {
+        display: none;
+    }
+
+    .img_head {
+        height: 250px;
+    }
+
+    section {
+        margin-left: 4%;
+        margin-right: 4%;
+
+    }
+
+
+    card_mini {
+        width: 300px;
+    }
+
+    container {
+        display: grid;
+        grid-template-columns: auto;
+
+        grid-template-areas:
+            "page "
+            "page "
+            "page  "
+            "page "
+            "item--7 "
+        ;
+    }
+
+
+
+   
+    right_block {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-auto-rows:60px 100px auto;
+        grid-template-areas:
+            "content_name content_name content_name"
+            "new1 new2 new3"
+            "podpiska podpiska podpiska";
+        gap: 10px;
+
+    }
+
+    podpiska {
+        grid-area: podpiska;
+        margin-left: 150px;
+    }
+
+    .form-outline {
+        width: 380px;
+        margin-right: 20px;
+    }
+
+  
+
+    .popular_new1 {
+        grid-area: new1;
+    }
+
+
+    .popular_new2 {
+        grid-area: new2;
+    }
+
+    .popular_new3 {
+        grid-area: new3;
+    }
+
+    content_name {
+        grid-area: content_name;
+    }
+
+}
